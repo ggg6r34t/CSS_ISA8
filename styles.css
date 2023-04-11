@@ -1,0 +1,204 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h3,
+h5 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 250px;
+}
+
+p {
+  color: #8f8f8f;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.nav-item:hover {
+  background-color: #fffeff4d;
+}
+
+/* Title */
+
+.background-image-section {
+  background-image: url("images/milk-and-donut.jpg");
+  height: 700px;
+  width: 1904px;
+  background-color: #cccccc;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.box2 {
+  background-color: grey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box3 {
+  background-color: lightpink;
+  margin-top: 0px;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#title {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#mainNav {
+  padding-bottom: 0px;
+}
+
+/* Main Content */
+
+.tradition {
+  color: purple;
+}
+
+.creativity {
+  position: relative;
+}
+
+.pink-cupcake {
+  max-height: 633px;
+  max-width: 944px;
+}
+
+.stacked-donut-img {
+  max-height: 763px;
+  max-width: 517px;
+  position: relative;
+  right: 52px;
+}
+
+.heart-cake-img {
+  max-height: 467px;
+  max-width: 700px;
+  position: relative;
+  left: 5px;
+}
+
+.purple-cake-img {
+  max-height: 534px;
+  max-width: 776px;
+  background-size: cover;
+  position: relative;
+  left: 13px;
+}
+
+/* Colored-Divs */
+
+.colored-div {
+  background-color: #f6f1e9;
+}
+
+.center-colored-div {
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 200px;
+}
+
+/* Flex Box */
+.coffee {
+  background-color: #ffffff;
+  height: 100px;
+  width: 1000px;
+}
+
+.happy-client {
+  background-color: #ffffff;
+  height: 100px;
+  width: 1000px;
+}
+
+.experience {
+  background-color: #ffffff;
+  height: 100px;
+  width: 1000px;
+}
+
+.export-worker {
+  background-color: #ffffff;
+  height: 100px;
+  width: 1000px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Button */
+
+.btn {
+  background: #c21010;
+  background-image: -webkit-linear-gradient(top, #c41818, #c21010);
+  background-image: -moz-linear-gradient(top, #c21010, #c21010);
+  background-image: -ms-linear-gradient(top, #c21010, #c21010);
+  background-image: -o-linear-gradient(top, #c21010, #c21010);
+  background-image: linear-gradient(to bottom, #c21010, #c21010);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
